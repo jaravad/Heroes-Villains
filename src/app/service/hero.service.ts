@@ -72,12 +72,15 @@ export class HeroService {
   }
 
   getHero(id: string) {
-    this.hero.forEach((h) => {
+    let i: number = 0;
+    this.hero.forEach((h, index) => {
       if (id === h.nombre) {
+        i = index;
         console.log(typeof h);
         return h;
       }
     });
+    return this.hero[i];
   }
 
   buscarHeroe(palabra: string): Hero[] {
