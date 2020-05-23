@@ -1,0 +1,24 @@
+<div class="card">
+  <!-- <img src="{{info.img}}" class="card-img-top" alt="{{info.nombre}}"> -->
+  <img [src]="info.img" class="card-img-top" [alt]="info.nombre" />
+  <div class="card-body">
+    <h5 class="card-title">{{ info.nombre }}</h5>
+    <p class="card-text">{{ info.bio }}</p>
+    <p class="card-text">
+      <small class="text-muted">{{ info.aparicion }}</small>
+    </p>
+    <button
+      type="button"
+      (click)="verHeroe(info.nombre)"
+      class="btn btn-outline-primary btn-block"
+    >
+      Ver mas...
+    </button>
+    <a
+      [routerLink]="['/detalles', info.nombre]"
+      class="btn btn-outline-primary btn-block"
+    >
+      Ver mas ...</a
+    >
+  </div>
+</div>

@@ -22,8 +22,4 @@ export class BusquedaHeroeComponent implements OnInit {
   }
 
   ngOnInit(): void {}
-
-  verHeroe(id: number) {
-    this._router.navigate(['/detalles', id]);
-  }
 }

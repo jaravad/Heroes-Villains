@@ -16,8 +16,4 @@ export class HeroesComponent implements OnInit {
     this.hero = this._heroService.getHeros();
     console.log(this.hero);
   }
-
-  verHeroe(id: string) {
-    this._router.navigate(['/detalles', id]);
-  }
 }
