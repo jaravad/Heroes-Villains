@@ -66,34 +66,50 @@ export class HeroService {
     {
       nombre: 'Guason',
       bio:
-        'El poder más reconocido de Aquaman es la capacidad telepática para comunicarse con la vida marina, la cual puede convocar a grandes distancias.',
-      img: 'assets/img/aquaman.png',
-      aparicion: '1941-11-01',
+        'Es uno de los criminales más notables de Gotham City, y es el enemigo principal de Batman. Aunque carece de habilidades sobrehumanas para llevar a cabo sus crímenes, suele recurrir a su ingenio para desarrollar armas y dispositivos letales entre los cuales se encuentran barajas con navajas, cajas sorpresas, explosivos en forma de cigarrillos y objetos rociadores de ácido.',
+      img: 'assets/img/joker.png',
+      aparicion: '1940-01',
       casa: 'DC',
     },
     {
       nombre: 'Bane',
       bio:
-        'Los rasgos principales de Batman se resumen en «destreza física, habilidades deductivas y obsesión». La mayor parte de las características básicas de los cómics han variado por las diferentes interpretaciones que le han dado al personaje.',
-      img: 'assets/img/batman.png',
-      aparicion: '1939-05-01',
+        'Bane es un convicto fugitivo de una isla prisión en América del Sur y un súper villano / asesino. Bane tiene una fuerza física anormal como resultado de haber participado en experimentos con un derivado del medicamento Venom.',
+      img: 'assets/img/bane.png',
+      aparicion: '1993-01',
       casa: 'DC',
     },
     {
       nombre: 'Loki',
       bio:
-        'Al haber perdido la vista, los cuatro sentidos restantes de Daredevil fueron aumentados por la radiación a niveles superhumanos, en el accidente que tuvo cuando era niño. A pesar de su ceguera, puede "ver" a través de un "sexto sentido" que le sirve como un radar similar al de los murciélagos.',
-      img: 'assets/img/daredevil.png',
-      aparicion: '1964-01-01',
+        'Es conocido como el Dios de las Mentiras o el Dios de las Travesuras, y es uno de los supercriminales más infames y temerosos del Universo Marvel. Es el hijo adoptivo de Odin y Nemesis, así como el hermano adoptivo de Thor.',
+      img: 'assets/img/loki.png',
+      aparicion: '1962-10',
       casa: 'Marvel',
     },
     {
       nombre: 'Thanos',
       bio:
-        'Su principal poder es su capacidad de aumentar su fuerza hasta niveles prácticamente ilimitados a la vez que aumenta su furia. Dependiendo de qué personalidad de Hulk esté al mando en ese momento (el Hulk Banner es el más débil, pero lo compensa con su inteligencia).',
-      img: 'assets/img/hulk.png',
-      aparicion: '1962-05-01',
+        'Thanos fue un señor de la guerra y genocida de Titán, cuyo objetivo principal era traer estabilidad al universo, ya que creía que su enorme población inevitablemente agotaría todo el suministro de recursos disponibles y eso condenaría a las especies a morir.',
+      img: 'assets/img/thanos.png',
+      aparicion: '1973-02',
       casa: 'Marvel',
+    },
+    {
+      nombre: 'Mysterio',
+      bio:
+        'Su nombre real es Quentin Beck, diseñador de efectos visuales que trabaja en Hollywood y que decide convertirse en criminal después de que no consiguiese labrarse una carrera en la industria del cine, ni como diseñador ni tampoco como actor.',
+      img: 'assets/img/mysterio.png',
+      aparicion: '1964-06',
+      casa: 'Marvel',
+    },
+    {
+      nombre: 'Espantapajaros',
+      bio:
+        'Dr. Jonathan Crane, también conocido como El Espantapájaros es un ex profesor de psicología demasiado obsesivo y trastornado que usa una variedad de drogas y tácticas psicológicas para aumentar los miedos y fobias de sus adversarios.',
+      img: 'assets/img/espantapajaros.png',
+      aparicion: '1941-09',
+      casa: 'DC',
     },
   ];
 
