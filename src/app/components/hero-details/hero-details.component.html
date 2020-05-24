@@ -8,9 +8,7 @@
     <div class="col-md-4">
       <img [src]="hero.img" [alt]="hero.nombre" />
       <br /><br />
-      <a [routerLink]="['/heroes']" class="btn btn-outline-primary">
-        Regresar</a
-      >
+      <a (click)="back()" class="btn btn-outline-primary"> Regresar</a>
     </div>
     <div class="col-md-6">
       <h3>{{ hero.nombre }}</h3>
