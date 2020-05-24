@@ -4,13 +4,17 @@
     <small>{{ hero.aparicion | date: "y" }}</small>
   </h1>
   <hr />
-  <div class="row">
+  <div class="row justify-content-around">
     <div class="col-md-4">
-      <img [src]="hero.img" [alt]="hero.nombre" />
+      <img
+        [src]="hero.img"
+        [alt]="hero.nombre"
+        class="img-fluid rounded shadow"
+      />
       <br /><br />
       <a (click)="back()" class="btn btn-outline-primary"> Regresar</a>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-7">
       <h3>{{ hero.nombre }}</h3>
       <hr />
       <p>
@@ -19,7 +23,7 @@
       <div>
         <img
           *ngIf="hero.casa == 'DC'"
-          src="../../../assets/img/dc.jfif"
+          src="../../../assets/img/dc.png"
           alt=""
         />
         <img
