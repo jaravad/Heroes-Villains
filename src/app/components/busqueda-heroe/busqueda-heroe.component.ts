@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-busqueda-heroe',
   templateUrl: './busqueda-heroe.component.html',
-  styleUrls: ['./busqueda-heroe.component.css'],
+  styleUrls: [],
 })
 export class BusquedaHeroeComponent implements OnInit {
   hero: any = [];
