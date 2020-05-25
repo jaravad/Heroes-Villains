@@ -1,0 +1,7 @@
+.btn {
+  transition: color 0.3s ease;
+}
+
+.btn:hover {
+  color: white;
+}

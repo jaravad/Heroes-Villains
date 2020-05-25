@@ -6,7 +6,7 @@ import { Location } from '@angular/common';
 @Component({
   selector: 'app-hero-details',
   templateUrl: './hero-details.component.html',
-  styles: [],
+  styles: ['./hero-details.component.css'],
 })
 export class HeroDetailsComponent implements OnInit {
   hero: any = {};

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { HeroService, Hero } from '../service/hero.service';
+import { HeroService, Hero } from '../../service/hero.service';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-villains',
   templateUrl: './villains.component.html',
-  styleUrls: ['./villains.component.css'],
+  styleUrls: [],
 })
 export class VillainsComponent implements OnInit {
   villains: Hero[] = [];

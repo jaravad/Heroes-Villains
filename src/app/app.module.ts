@@ -17,7 +17,7 @@ import { HeroService } from './service/hero.service';
 import { HeroDetailsComponent } from './components/hero-details/hero-details.component';
 import { BusquedaHeroeComponent } from './components/busqueda-heroe/busqueda-heroe.component';
 import { CardComponent } from './components/card/card.component';
-import { VillainsComponent } from './villains/villains.component';
+import { VillainsComponent } from './components/villains/villains.component';
 
 @NgModule({
   declarations: [

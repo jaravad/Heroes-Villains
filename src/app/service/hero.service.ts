@@ -104,7 +104,7 @@ export class HeroService {
       casa: 'Marvel',
     },
     {
-      nombre: 'Espantapajaros',
+      nombre: 'Espantapájaros',
       bio:
         'Dr. Jonathan Crane, también conocido como El Espantapájaros es un ex profesor de psicología demasiado obsesivo y trastornado que usa una variedad de drogas y tácticas psicológicas para aumentar los miedos y fobias de sus adversarios.',
       img: 'assets/img/espantapajaros.png',

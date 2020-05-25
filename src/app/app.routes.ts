@@ -5,7 +5,7 @@ import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroDetailsComponent } from './components/hero-details/hero-details.component';
 import { BusquedaHeroeComponent } from './components/busqueda-heroe/busqueda-heroe.component';
-import { VillainsComponent } from './villains/villains.component';
+import { VillainsComponent } from './components/villains/villains.component';
 
 const APP_ROUTE: Routes = [
   { path: 'home', component: HomeComponent },
